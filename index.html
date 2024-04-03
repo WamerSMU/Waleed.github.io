@@ -9,13 +9,16 @@
 <body>
     <h1>Waleed Amer</h1>
     <p>Find out more about me and my work</p>
+    
     <div id="tabs">
         <div class="tab active-tab">About Me</div>
         <div class="tab">Work/Analysis 1</div>
         <div class="tab">Work/Analysis 2</div>
-        <!-- Add more tabs as needed -->
+        <div class="tab">Beer Study</div> <!-- New tab added here -->
     </div>
-    <div class="content">
+    
+    <!-- Content container for "About Me" -->
+    <div class="content" style="display:block;">
         <h1>About Me</h1>
         <p>My name is Waleed Amer.</p>
         <p><img src="path_to_your_image.jpg" alt="A picture of me" style="width:200px;height:auto;"></p>
@@ -25,6 +28,13 @@
         <p>I am currently enrolled in a Data Science Graduates program at SMU, Pony Up!.</p>
         <p>The other tabs represent work/analyses that I have completed. Please check them out!</p>
     </div>
+    
+    <!-- New content container for Beer Study -->
+    <div class="content" style="display:none;">
+        <h2>Beer Study</h2>
+        <p>Content for the Beer Study will go here.</p>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
